@@ -1,0 +1,402 @@
+[
+  {
+    "depth_m": 1217.3,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-001",
+    "x": 323.83,
+    "y": 150.85
+  },
+  {
+    "depth_m": 3729.1,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-002",
+    "x": 535.88,
+    "y": 365.69
+  },
+  {
+    "depth_m": 1209.6,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-003",
+    "x": 214.7,
+    "y": 85.95
+  },
+  {
+    "depth_m": 3842.3,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-004",
+    "x": 90.71,
+    "y": 424.52
+  },
+  {
+    "depth_m": 2731.3,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-005",
+    "x": 630.63,
+    "y": 583.0
+  },
+  {
+    "depth_m": 2670.0,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-006",
+    "x": 396.68,
+    "y": 976.26
+  },
+  {
+    "depth_m": 2712.7,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-007",
+    "x": 133.17,
+    "y": 419.14
+  },
+  {
+    "depth_m": 2744.8,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-008",
+    "x": 560.26,
+    "y": 682.0
+  },
+  {
+    "depth_m": 2693.1,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-009",
+    "x": 638.91,
+    "y": 372.4
+  },
+  {
+    "depth_m": 3331.7,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-010",
+    "x": 619.01,
+    "y": 496.41
+  },
+  {
+    "depth_m": 1899.3,
+    "lease_id": "LEASE-001",
+    "status": "completed",
+    "well_id": "W-011",
+    "x": 465.6,
+    "y": 923.44
+  },
+  {
+    "depth_m": 1245.6,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-012",
+    "x": 794.38,
+    "y": 698.99
+  },
+  {
+    "depth_m": 3188.3,
+    "lease_id": "LEASE-001",
+    "status": "completed",
+    "well_id": "W-013",
+    "x": 300.25,
+    "y": 495.12
+  },
+  {
+    "depth_m": 2535.8,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-014",
+    "x": 287.94,
+    "y": 980.17
+  },
+  {
+    "depth_m": 2265.1,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-015",
+    "x": 164.96,
+    "y": 342.06
+  },
+  {
+    "depth_m": 2020.4,
+    "lease_id": "LEASE-001",
+    "status": "completed",
+    "well_id": "W-016",
+    "x": 962.02,
+    "y": 77.62
+  },
+  {
+    "depth_m": 1206.3,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-017",
+    "x": 350.18,
+    "y": 496.67
+  },
+  {
+    "depth_m": 1182.0,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-018",
+    "x": 93.6,
+    "y": 269.94
+  },
+  {
+    "depth_m": 1853.8,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-019",
+    "x": 701.49,
+    "y": 647.13
+  },
+  {
+    "depth_m": 3821.9,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-020",
+    "x": 385.79,
+    "y": 668.65
+  },
+  {
+    "depth_m": 1176.9,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-021",
+    "x": 355.46,
+    "y": 610.92
+  },
+  {
+    "depth_m": 2193.7,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-022",
+    "x": 768.23,
+    "y": 129.34
+  },
+  {
+    "depth_m": 2347.6,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-023",
+    "x": 916.82,
+    "y": 496.51
+  },
+  {
+    "depth_m": 3592.0,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-024",
+    "x": 549.44,
+    "y": 883.38
+  },
+  {
+    "depth_m": 3048.2,
+    "lease_id": "LEASE-001",
+    "status": "completed",
+    "well_id": "W-025",
+    "x": 278.42,
+    "y": 415.3
+  },
+  {
+    "depth_m": 1528.7,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-026",
+    "x": 380.44,
+    "y": 230.75
+  },
+  {
+    "depth_m": 3493.3,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-027",
+    "x": 231.96,
+    "y": 233.34
+  },
+  {
+    "depth_m": 2256.8,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-028",
+    "x": 182.34,
+    "y": 281.93
+  },
+  {
+    "depth_m": 3071.5,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-029",
+    "x": 369.25,
+    "y": 566.34
+  },
+  {
+    "depth_m": 2369.9,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-030",
+    "x": 515.49,
+    "y": 617.59
+  },
+  {
+    "depth_m": 2194.2,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-031",
+    "x": 870.98,
+    "y": 951.89
+  },
+  {
+    "depth_m": 1186.7,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-032",
+    "x": 394.12,
+    "y": 481.52
+  },
+  {
+    "depth_m": 1329.8,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-033",
+    "x": 67.35,
+    "y": 208.76
+  },
+  {
+    "depth_m": 2609.9,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-034",
+    "x": 600.73,
+    "y": 102.38
+  },
+  {
+    "depth_m": 3623.0,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-035",
+    "x": 948.95,
+    "y": 613.74
+  },
+  {
+    "depth_m": 3866.4,
+    "lease_id": "LEASE-001",
+    "status": "completed",
+    "well_id": "W-036",
+    "x": 614.07,
+    "y": 148.55
+  },
+  {
+    "depth_m": 3546.8,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-037",
+    "x": 602.28,
+    "y": 474.15
+  },
+  {
+    "depth_m": 1935.6,
+    "lease_id": "LEASE-001",
+    "status": "shut-in",
+    "well_id": "W-038",
+    "x": 993.1,
+    "y": 465.99
+  },
+  {
+    "depth_m": 2435.9,
+    "lease_id": "LEASE-001",
+    "status": "completed",
+    "well_id": "W-039",
+    "x": 144.12,
+    "y": 749.67
+  },
+  {
+    "depth_m": 3853.0,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-040",
+    "x": 692.06,
+    "y": 516.33
+  },
+  {
+    "depth_m": 3274.4,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-041",
+    "x": 528.26,
+    "y": 146.6
+  },
+  {
+    "depth_m": 3088.6,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-042",
+    "x": 298.09,
+    "y": 642.92
+  },
+  {
+    "depth_m": 2067.1,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-043",
+    "x": 261.12,
+    "y": 366.7
+  },
+  {
+    "depth_m": 2909.3,
+    "lease_id": "LEASE-001",
+    "status": "completed",
+    "well_id": "W-044",
+    "x": 222.79,
+    "y": 541.57
+  },
+  {
+    "depth_m": 3418.2,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-045",
+    "x": 613.23,
+    "y": 788.4
+  },
+  {
+    "depth_m": 1599.8,
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-046",
+    "x": 818.33,
+    "y": 739.87
+  },
+  {
+    "depth_m": 3370.3,
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-047",
+    "x": 492.78,
+    "y": 731.0
+  },
+  {
+    "depth_m": 2341.7,
+    "lease_id": "LEASE-001",
+    "status": "completed",
+    "well_id": "W-048",
+    "x": 472.24,
+    "y": 193.64
+  },
+  {
+    "depth_m": 1241.6,
+    "lease_id": "LEASE-001",
+    "status": "completed",
+    "well_id": "W-049",
+    "x": 937.02,
+    "y": 988.04
+  },
+  {
+    "depth_m": 1613.1,
+    "lease_id": "LEASE-001",
+    "status": "completed",
+    "well_id": "W-050",
+    "x": 102.16,
+    "y": 470.08
+  }
+]

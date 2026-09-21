@@ -1,0 +1,8 @@
+[
+  {
+    "crs": "EPSG:32615",
+    "geometry_wkt": "POLYGON((0 0, 1000 0, 1000 700, 700 700, 700 1000, 0 1000, 0 0))",
+    "lease_id": "LEASE-001",
+    "lease_name": "Cactus Draw Block A"
+  }
+]

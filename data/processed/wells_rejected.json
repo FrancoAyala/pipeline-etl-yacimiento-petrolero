@@ -1,0 +1,33 @@
+[
+  {
+    "lease_id": "LEASE-001",
+    "status": "producing",
+    "well_id": "W-005",
+    "x": 999.0,
+    "y": 999.0,
+    "motivos_rechazo": [
+      "well_id duplicado: 'W-005'"
+    ]
+  },
+  {
+    "lease_id": "LEASE-001",
+    "status": "drilling",
+    "well_id": "W-999",
+    "x": null,
+    "y": null,
+    "motivos_rechazo": [
+      "campo obligatorio faltante: 'x'",
+      "campo obligatorio faltante: 'y'"
+    ]
+  },
+  {
+    "lease_id": "LEASE-777",
+    "status": "producing",
+    "well_id": "W-998",
+    "x": 500.0,
+    "y": 500.0,
+    "motivos_rechazo": [
+      "lease_id inexistente: 'LEASE-777' (well hu\u00e9rfano)"
+    ]
+  }
+]
