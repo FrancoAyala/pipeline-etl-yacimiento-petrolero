@@ -13,30 +13,31 @@ visualizar pozos, garantizar integridad espacial).
 
 ## Arquitectura del pipeline
 
-
+```
 API propia (Flask, con autenticación)
-│
-▼
-EXTRACT (extract.py)
-→ pedido HTTP autenticado con requests
-│
-▼
-QUALITY CHECKS (quality_checks.py)
-→ detecta duplicados, nulos, coordenadas fuera de rango,
-referencias huérfanas
-│
-▼
-TRANSFORM + LOAD (transform_load.py)
-→ limpieza, normalización, carga a SQLite
-│
-▼
-GIS SUBDIVIDE (subdivide.py)
-→ subdivide el terreno en DSUs, valida integridad espacial
-(sin huecos, sin áreas huérfanas), grafica el mapa 2D
-│
-▼
-VISUALIZACIÓN 3D (plot3d.py)
-→ pozos como trayectorias verticales, coloreados por status
+        │
+        ▼
+   EXTRACT (extract.py)
+   → pedido HTTP autenticado con requests
+        │
+        ▼
+   QUALITY CHECKS (quality_checks.py)
+   → detecta duplicados, nulos, coordenadas fuera de rango,
+     referencias huérfanas
+        │
+        ▼
+   TRANSFORM + LOAD (transform_load.py)
+   → limpieza, normalización, carga a SQLite
+        │
+        ▼
+   GIS SUBDIVIDE (subdivide.py)
+   → subdivide el terreno en DSUs, valida integridad espacial
+     (sin huecos, sin áreas huérfanas), grafica el mapa 2D
+        │
+        ▼
+   VISUALIZACIÓN 3D (plot3d.py)
+   → pozos como trayectorias verticales, coloreados por status
+```
 
 
 
@@ -49,12 +50,14 @@ VISUALIZACIÓN 3D (plot3d.py)
 
 ### Visualización 3D — Trayectorias de pozos por profundidad
 
-El gráfico 3D es un archivo HTML interactivo (rotable, con zoom).
-GitHub no lo puede mostrar embebido, pero podés verlo así:
+![Vista 3D](output/pozos_3d.png)
+
+El gráfico de arriba es una captura estática. El archivo real
+(`output/pozos_3d.html`) es interactivo — se puede rotar y hacer zoom.
+Para verlo así:
 
 1. Cloná el repo (o descargalo)
 2. Abrí `output/pozos_3d.html` con doble click — se abre en tu navegador
-
 ## Qué valida la etapa de calidad de datos
 
 El pipeline recibe pozos de la API con errores típicos de datos reales,
@@ -127,23 +130,25 @@ python src/plot3d.py
 
 ## Estructura del repo
 
-
+```
 pipeline-etl-yacimiento-petrolero/
 ├── src/
-│ ├── api_server.py # Servidor Flask con autenticación por API key
-│ ├── extract.py # Extracción: pedido HTTP autenticado
-│ ├── quality_checks.py # 4 reglas de validación de calidad de datos
-│ ├── transform_load.py # Transformación + carga a SQLite + consultas SQL
-│ ├── subdivide.py # GIS: subdivisión en DSUs, validación espacial, mapa 2D
-│ └── plot3d.py # Visualización 3D interactiva de pozos
+│   ├── api_server.py       # Servidor Flask con autenticación por API key
+│   ├── extract.py          # Extracción: pedido HTTP autenticado
+│   ├── quality_checks.py   # 4 reglas de validación de calidad de datos
+│   ├── transform_load.py   # Transformación + carga a SQLite + consultas SQL
+│   ├── subdivide.py        # GIS: subdivisión en DSUs, validación espacial, mapa 2D
+│   └── plot3d.py           # Visualización 3D interactiva de pozos
 ├── data/
-│ ├── raw/ # JSON crudo "de la API"
-│ └── processed/ # Datos validados, rechazados, leases limpios
-├── db/ # Base de datos SQLite (generada al correr el pipeline)
+│   ├── raw/                # JSON crudo "de la API"
+│   └── processed/          # Datos validados, rechazados, leases limpios
+├── db/                     # Base de datos SQLite (generada al correr el pipeline)
 ├── output/
-│ ├── mapa.png # Mapa 2D final
-│ └── pozos_3d.html # Visualización 3D interactiva
-├── .env.example # Plantilla de variables de entorno (SÍ se sube)
+│   ├── mapa.png            # Mapa 2D final
+│   ├── pozos_3d.html       # Visualización 3D interactiva
+│   └── pozos_3d.png        # Captura de la visualización 3D
+├── .env.example             # Plantilla de variables de entorno (SÍ se sube)
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
